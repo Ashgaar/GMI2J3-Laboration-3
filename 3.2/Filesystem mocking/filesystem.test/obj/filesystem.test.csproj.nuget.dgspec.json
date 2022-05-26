@@ -1,0 +1,172 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\zangi\\Programmering\\IT-säkerhet högskolan dalarna\\GMI2J3 Mjukvarutestning 1\\Laboration 3\\GMI2J3-Laboration-3\\3.2\\Filesystem mocking\\filesystem.test\\filesystem.test.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\zangi\\Programmering\\IT-säkerhet högskolan dalarna\\GMI2J3 Mjukvarutestning 1\\Laboration 3\\GMI2J3-Laboration-3\\3.2\\Filesystem mocking\\filesystem.test\\filesystem.test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\zangi\\Programmering\\IT-säkerhet högskolan dalarna\\GMI2J3 Mjukvarutestning 1\\Laboration 3\\GMI2J3-Laboration-3\\3.2\\Filesystem mocking\\filesystem.test\\filesystem.test.csproj",
+        "projectName": "filesystem.test",
+        "projectPath": "C:\\Users\\zangi\\Programmering\\IT-säkerhet högskolan dalarna\\GMI2J3 Mjukvarutestning 1\\Laboration 3\\GMI2J3-Laboration-3\\3.2\\Filesystem mocking\\filesystem.test\\filesystem.test.csproj",
+        "packagesPath": "C:\\Users\\zangi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zangi\\Programmering\\IT-säkerhet högskolan dalarna\\GMI2J3 Mjukvarutestning 1\\Laboration 3\\GMI2J3-Laboration-3\\3.2\\Filesystem mocking\\filesystem.test\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\zangi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\zangi\\Programmering\\IT-säkerhet högskolan dalarna\\GMI2J3 Mjukvarutestning 1\\Laboration 3\\GMI2J3-Laboration-3\\3.2\\Filesystem mocking\\filesystem\\filesystem.csproj": {
+                "projectPath": "C:\\Users\\zangi\\Programmering\\IT-säkerhet högskolan dalarna\\GMI2J3 Mjukvarutestning 1\\Laboration 3\\GMI2J3-Laboration-3\\3.2\\Filesystem mocking\\filesystem\\filesystem.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.11.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.14, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\zangi\\Programmering\\IT-säkerhet högskolan dalarna\\GMI2J3 Mjukvarutestning 1\\Laboration 3\\GMI2J3-Laboration-3\\3.2\\Filesystem mocking\\filesystem\\filesystem.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\zangi\\Programmering\\IT-säkerhet högskolan dalarna\\GMI2J3 Mjukvarutestning 1\\Laboration 3\\GMI2J3-Laboration-3\\3.2\\Filesystem mocking\\filesystem\\filesystem.csproj",
+        "projectName": "filesystem",
+        "projectPath": "C:\\Users\\zangi\\Programmering\\IT-säkerhet högskolan dalarna\\GMI2J3 Mjukvarutestning 1\\Laboration 3\\GMI2J3-Laboration-3\\3.2\\Filesystem mocking\\filesystem\\filesystem.csproj",
+        "packagesPath": "C:\\Users\\zangi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zangi\\Programmering\\IT-säkerhet högskolan dalarna\\GMI2J3 Mjukvarutestning 1\\Laboration 3\\GMI2J3-Laboration-3\\3.2\\Filesystem mocking\\filesystem\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\zangi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Moq": {
+              "target": "Package",
+              "version": "[4.18.0, )"
+            },
+            "System.IO.Abstractions": {
+              "target": "Package",
+              "version": "[17.0.10, )"
+            },
+            "System.IO.Abstractions.TestingHelpers": {
+              "target": "Package",
+              "version": "[17.0.10, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.14, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
